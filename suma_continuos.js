@@ -5,18 +5,18 @@
 
 let arr = [1, 2, 1, 6, 2];
 
-const maxSumaContinuos = (arr) => {
+/* const maxSumaContinuos = (arr) => {
     return Math.max(...arr.slice(1).map((x, i) => x + arr[i]))
 }
 
-console.log(maxSumaContinuos(arr));
+console.log(maxSumaContinuos(arr)); */
 
 // Explicación
-/* let newArr = arr.slice(1);
+let newArr = arr.slice(1);
 console.log(newArr);
 let newArr2 = newArr.map((x, i) => {
     console.log(x, i);
     return x + arr[i];
 })
 console.log(newArr2);
-console.log(Math.max(...newArr2)); */
+console.log(Math.max(...newArr2));
