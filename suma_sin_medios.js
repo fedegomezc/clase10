@@ -19,8 +19,6 @@ if(arreglo.length >= 3) {
     console.log(arreglo);
 } 
 
-let suma = arreglo.reduce((acc, el) => {
-    return acc + el;
-}, 0);
+let suma = arreglo.reduce((acc, el) => acc + el, 0);
 
 console.log(suma);
